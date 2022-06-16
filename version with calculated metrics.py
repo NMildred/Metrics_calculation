@@ -19,7 +19,7 @@ from Utils_1 import *
 # In[2]:
 
 
-data=pd.read_excel(DATA_PATH/'Laura.xlsx', sheet_name = "Sargis_bike_2")
+data=pd.read_excel(DATA_PATH/'data.xlsx'")
 
 
 # In[3]:
@@ -233,7 +233,8 @@ for i in range(0, len(data_dictionary)):
     data_f=data_f.append(pd.DataFrame.from_dict(calculate_kstatvar(data_dictionary,sensors)))
 
 
-# In[ ]:
+
+                   
 
 
 
