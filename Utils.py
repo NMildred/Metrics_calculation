@@ -14,7 +14,7 @@ from config import *
 
 def get_data(start,end,device,sensors = (SENSORS)):
     """
-    sends request to Embry server and returns
+    sends request to server and returns
     s2 and accelerometer (nested) data only
     - start  -> starting timestamp
     - end    -> ending timestamp
